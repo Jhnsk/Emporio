@@ -3,7 +3,7 @@ let zeroJson = [
     nome:'Heineken',
     span: 'Zero Álcool',
     preço: 9.00,
-    img: 'i (20).jpeg'
+    img: 'i(20).jpeg'
   },
   {
     nome: 'Refrigerante',
