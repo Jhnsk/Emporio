@@ -1,0 +1,235 @@
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color:white;
+   
+  
+}
+body{
+  background: black;
+  height: 1000px;
+  
+}
+.models{
+  display:none;
+}
+.models2{
+  display: none;
+}
+.models3{
+  display:none ;
+}
+.header-img{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(beers2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.logo img{
+  width: 250px;
+}
+.navegation{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: black;
+  height: 50px;
+  overflow-x: scroll;
+  padding-left: 5px;
+}
+.lanches.active , .beers.active , .aperitivos.active, .pasteis.active, .zero.active{
+  color: darkorange;
+  background: black;
+  border: 2px solid darkorange
+}
+
+.navegation  li a{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 120px;
+  height: 30px;
+  background: darkorange;
+  color:black;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms ease-in-out;
+  
+}
+
+.fixa{
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+}
+
+
+
+.item-content, .item--content2, .item--content3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 150px;
+  margin-top: 5px;
+  background: #19191a;
+  border-radius: 10px;
+  
+  
+}
+
+.item--img{
+    margin-right: 30px;
+    width: 80px;
+    height:120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-size: cover;
+}
+.item--img2, .item--img3{
+  margin-right: 5px;
+  width: 130px;
+  height:120px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.desc-content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 250px;
+  margin-left: 10px;
+  
+}
+.desc--content2{
+   display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 250px;
+  margin-left: 10px;
+}
+.desc--content3{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 10px;
+  
+}
+
+.item--desc2, .item--desc3{
+    color:gray;
+    font-size: 12px;
+}
+.item--name{
+  font-size: 20px;
+  color:whitesmoke;
+  
+}
+
+
+
+.item--name span {
+  color: darkorange;
+}
+.item--name2, .item--name3{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 20px;
+  
+  
+}
+
+.item--name2 span, .item--name3 span{
+  color: darkorange;
+  font-size: 18px;
+  
+}
+
+.name-content{
+  display: flex;
+  gap: 5px;
+}
+.item--desc{
+  color:gray;
+  font-size: 12px;
+}
+.item--desc3{
+  max-width: 250px;
+  word-wrap: break-word;
+}
+.item--price{
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.item--price2, .item--price3{
+   font-size: 18px;
+}
+
+.item--price span{
+  color: darkorange;
+}
+.item--img img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid darkorange;
+}
+.item--img2 img, .item--img3 img{
+   width: 130px;
+   height: 130px;
+   border-radius: 50%;
+   border: 2px solid darkorange;
+}
+.whats i{
+  font-size: 35px;
+  position: absolute;
+  right: 40px;
+  top: 25px;
+  color: darkorange;
+}
+
+.final{
+  background:#19191a ;
+  width: 100vw;
+  height: 20px;
+  margin-top:110px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  
+}
+.final h4{
+  color: darkorange;
+  
+}
+.area{
+  padding-bottom: 25px;
+}
