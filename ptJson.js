@@ -41,7 +41,7 @@ let ptItem = [
   span:'Calabresa de Frango',
   preço:16.90,
   desc:'Pastel de calabresa com queijo ao molho de azeitona (5 UNID)',
-  img: 'calabresacqueijo.jpeg'
+  img: 'calabresacqueijo (1).jpeg'
     
   },
   
