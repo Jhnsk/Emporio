@@ -5,7 +5,7 @@ let torreJson = [
    sub: 'TORRE',
    subs:'AMSTEL 2L',
    p: 28.90,
-   img: '/images/torre.jpeg'
+   img: 'torre.jpeg'
   },
   
      {nome:'TORRE',
@@ -14,6 +14,6 @@ let torreJson = [
    sub: 'TORRE',
    subs:'DEVASSA 2L',
    p: 26.90,
-   img: '/images/torre.jpeg'
+   img: 'torre.jpeg'
   }
   ]
