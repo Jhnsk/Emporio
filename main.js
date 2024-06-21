@@ -25,6 +25,7 @@ document.querySelectorAll('.navegation a').forEach((item,index)=>{
       c('.beers').classList.remove('active')
       c('.aperitivos').classList.remove('active')
       c('.pasteis').classList.remove('active')
+        c('.torre').classList.remove('active')
       e.target.classList.add('active')
       itemJson.map((item, index) => {
       
@@ -46,6 +47,7 @@ document.querySelectorAll('.navegation a').forEach((item,index)=>{
       c('.lanches').classList.remove('active')
       c('.aperitivos').classList.remove('active')
       c('.pasteis').classList.remove('active')
+        c('.torre').classList.remove('active')
      e.target.classList.add('active')
       
       beerJson.map((item,index)=>{
@@ -69,6 +71,7 @@ document.querySelectorAll('.navegation a').forEach((item,index)=>{
             c('.lanches').classList.remove('active')
             c('.beers').classList.remove('active')
             c('.pasteis').classList.remove('active')
+            c('.torre').classList.remove('active')
             e.target.classList.add('active')
       
       
@@ -94,6 +97,7 @@ document.querySelectorAll('.navegation a').forEach((item,index)=>{
       c('.aperitivos').classList.remove('active')
       c('.beers').classList.remove('active')
       c('.zero').classList.remove('active')
+        c('.torre').classList.remove('active')
       e.target.classList.add('active')
       
       ptItem.map((item,index)=>{
@@ -107,13 +111,14 @@ document.querySelectorAll('.navegation a').forEach((item,index)=>{
           
         c('.area').append(pts)
       })
-    }else if(index == 4){
+    }else if(index == 5){
       
          c('.area').innerHTML = ''
          c('.lanches').classList.remove('active')
          c('.aperitivos').classList.remove('active')
          c('.beers').classList.remove('active')
          c('.pasteis').classList.remove('active')
+        c('.torre').classList.remove('active')
          e.target.classList.add('active')
       
          zeroJson.map((item, index) => {
@@ -127,11 +132,36 @@ document.querySelectorAll('.navegation a').forEach((item,index)=>{
       
                c('.area').append(zeroItem)
       })
+    }else if(index == 4){
+      
+          c('.area').innerHTML = ''
+         c('.lanches').classList.remove('active')
+         c('.aperitivos').classList.remove('active')
+         c('.beers').classList.remove('active')
+         c('.pasteis').classList.remove('active')
+             c('.zero').classList.remove('active')
+         e.target.classList.add('active')
+      
+         torreJson.map((item, index) => {
+               let torreItem = c('.models4 .item--content4').cloneNode(true)
+      
+              torreItem.querySelector('.item--name4 p').innerHTML = item.nome
+              torreItem.querySelector('.item--name4 span').innerHTML = item.span
+              torreItem.querySelector('.item--price4').innerHTML = `R$:  ${item.preço.toFixed(2)}`
+              torreItem.querySelector('.subn p').innerHTML = item.sub
+              torreItem.querySelector('.subn span').innerHTML = item.subs
+              torreItem.querySelector('.subp').innerHTML = `R$: ${item.p.toFixed(2)}`
+              torreItem.querySelector('.item--img img').src = item.img
+               c('.area').append(torreItem)
+      })         
     }
         
   })
   
 })
+          
+        
+
 
  
   
