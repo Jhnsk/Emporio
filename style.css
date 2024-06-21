@@ -50,7 +50,7 @@ body{
   overflow-x: scroll;
   padding-left: 5px;
 }
-.lanches.active , .beers.active , .aperitivos.active, .pasteis.active, .zero.active{
+.lanches.active , .beers.active , .aperitivos.active, .pasteis.active, .zero.active, .torre.active{
   color: darkorange;
   background: black;
   border: 2px solid darkorange
@@ -154,7 +154,7 @@ body{
 .item--name span {
   color: darkorange;
 }
-.item--name2, .item--name3{
+.item--name2, .item--name3, .item--name4, .subn{
   display: flex;
   gap: 5px;
   align-items: center;
@@ -163,7 +163,7 @@ body{
   
 }
 
-.item--name2 span, .item--name3 span{
+.item--name2 span, .item--name3 span, .item--name4 span, .subn span{
   color: darkorange;
   font-size: 18px;
   
@@ -232,4 +232,24 @@ body{
 }
 .area{
   padding-bottom: 25px;
+}
+.item--content4{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 150px;
+  margin-top: 5px;
+  padding-left: 10px;
+  background: #19191a;
+  border-radius: 10px;
+  
+}
+.division{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.item--name4 span, .subn span{
+  font-size: 20px
 }
