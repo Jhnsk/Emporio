@@ -1,5 +1,11 @@
 let beerJson =   [
-  
+    
+  {
+    span:'CHOPP',
+    qt:'AGUST PILSEN',
+    preço: 12.90,
+    img: 'chopp.jpeg'
+  },
   {
     span:'HEINEKEN',
   qt: '600ml',
