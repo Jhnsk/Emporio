@@ -17,14 +17,8 @@ let apejson = [
     
   },
   
-  {
-    nome: 'Bode',
-  span: 'com Batata',
-  preço: 29.90,
-  desc: 'deliciosa carne de bode com batata frita',
-  img: 'bode.jpeg'
-    
-  },
+
+
   
   {
     nome:'Bode Frito',
