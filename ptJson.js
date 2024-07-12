@@ -21,7 +21,7 @@ let ptItem = [
   {
     nome:'Pastel',
   span: 'Frango c/ Queijo',
-  desc: 'Pastel de frango com queijo coalho, feito com massa artesanal sem glúten (5 UNID)',
+  desc: 'Pastel de frango com queijo mussarela, feito com massa artesanal sem glúten (5 UNID)',
   preço: 19.90,
   img: 'Foto de John'
     
