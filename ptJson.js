@@ -50,7 +50,7 @@ let ptItem = [
   span:'Camarão',
   preço:27.90,
   desc:'Delicioso pastel de camarão feito com massa artesanal sem glúten (5 UNID)',
-  img:'camarão.jpeg'
+  img:'Foto de John'
     
   }
   
