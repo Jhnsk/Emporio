@@ -5,7 +5,7 @@ let ptItem = [
   span: 'Carne de Panela',
   desc:'Pastel feito com massa artesanal sem glúten (5 UNID)',
   preço: 19.90,
-  img:'foto de john'
+  img:'Foto de John'
     
   },
   
@@ -14,7 +14,7 @@ let ptItem = [
   span:'Carne de Panela c/Queijo ',
   preço:22.90,
   desc:'Pastel feito com massa artesanal sem glúten (5 UNID)',
-  img: 'foto de john'
+  img: 'Foto de John'
     
   },
   
@@ -23,7 +23,7 @@ let ptItem = [
   span: 'Frango c/ Queijo',
   desc: 'Pastel de frango com queijo coalho, feito com massa artesanal sem glúten (5 UNID)',
   preço: 19.90,
-  img: 'foto de john'
+  img: 'Foto de John'
     
   },
   
@@ -32,7 +32,7 @@ let ptItem = [
   span:'Calabresa  c/ Queijo',
   desc: 'Pastel de calabresa defumada com queijo, deliciosamente preparado com massa artesanal (5 UNID)',
   preço: 18.90,
-  img: 'foto de john'
+  img: 'Foto de John'
     
   },
   
@@ -41,7 +41,7 @@ let ptItem = [
   span:'Calabresa de Frango',
   preço:16.90,
   desc:'Pastel de calabresa com queijo ao molho de azeitona (5 UNID)',
-  img: 'foto de john'
+  img: 'Foto de John'
     
   },
   
