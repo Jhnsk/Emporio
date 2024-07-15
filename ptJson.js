@@ -42,6 +42,7 @@ let ptItem = [
   preço:16.90,
   desc:'Pastel de calabresa com queijo ao molho de azeitona (5 UNID)',
   img: 'Foto de John'
+
     
   },
   
@@ -50,7 +51,7 @@ let ptItem = [
   span:'Camarão',
   preço:27.90,
   desc:'Delicioso pastel de camarão feito com massa artesanal sem glúten (5 UNID)',
-  img:'Foto de John'
+  img:'whatsptcamarao.jpg'
     
   }
   
