@@ -47,7 +47,7 @@ body{
 .navegation{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   background: black;
   height: 50px;
   overflow-x: scroll;
